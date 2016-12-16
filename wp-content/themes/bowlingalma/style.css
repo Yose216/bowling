@@ -1,0 +1,39 @@
+/*
+Theme Name: bowlingalma
+Description: Theme enfant de youness Sento
+Author: Youness - Sento
+Author URI: http://www.ThinkUpThemes.com
+Template: sento
+Version: 0.1.0
+*/
+
+.main {
+	width: 100%;
+	padding-top: 5em;
+}
+@media screen and (max-device-width: 500px) {
+	.contenue {
+		display: block!important;
+		width: 90%!important;
+	}
+	
+	h1 {
+		margin-left: 0!important;
+	}
+}
+
+.contenue {
+	width: 33%;
+	display: inline-block;
+	padding-bottom: 5em;
+}
+
+h1 {
+	margin-left: 11em;
+	font-weight: bolder;
+	font-size: 3em;
+}
+
+.copyright p {
+	margin-bottom: 5px!important;
+}
